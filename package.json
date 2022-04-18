@@ -1,0 +1,26 @@
+{
+  "name": "cryptokeygeneration",
+  "version": "1.0.0",
+  "description": "script for generating tron ethereum solana litecoin stellar lumens etc address using seed phrase ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranjal Maurya",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.39.1",
+    "bip39": "^2.6.0",
+    "bs58": "^4.0.1",
+    "buffer": "^5.7.1",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
+    "ethers": "^5.6.4",
+    "js-base64": "^3.7.2",
+    "litecoin-bip84": "^0.0.5",
+    "stellar-hd-wallet": "^0.0.10",
+    "tron-wallet-hd": "^2.0.2",
+    "tweetnacl": "^1.0.3",
+    "web3": "^1.7.3"
+  }
+}
